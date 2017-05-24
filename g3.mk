@@ -55,10 +55,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/apns-conf.xml:system/etc/apns-conf.xml
 
-# Bootanimation
-PRODUCT_COPY_FILES += \
-    device/lge/g3-common/bootanimation.zip:system/media/bootanimation.zip
-
 # BatteryStat apk
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/Turbo.apk:system/priv-app/Turbo.apk
